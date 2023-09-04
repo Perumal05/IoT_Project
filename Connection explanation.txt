@@ -1,0 +1,34 @@
+Drowsiness detection and alerting system using an Arduino Uno, PIR sensor, buzzer, GSM module, and an LCD display is a practical project.
+
+**Components Needed:**
+1. Arduino Uno
+2. PIR (Passive Infrared) Sensor
+3. Buzzer
+4. GSM Module (e.g., SIM900)
+5. 16x2 LCD Display
+6. Power supply for the Arduino and GSM module (battery or vehicle's power)
+7. Jumper wires
+8. SIM card for the GSM module
+
+**Circuit Connection:**
+1. Connect the PIR sensor to the Arduino Uno:
+   - PIR VCC to Arduino 5V
+   - PIR GND to Arduino GND
+   - PIR OUT to Arduino Digital Pin (e.g., D2)
+
+2. Connect the buzzer to the Arduino Uno:
+   - Buzzer positive (usually red) to Arduino Digital Pin (e.g., D3)
+   - Buzzer negative (usually black) to Arduino GND
+
+3. Connect the LCD display to the Arduino Uno:
+   - LCD VCC to Arduino 5V
+   - LCD GND to Arduino GND
+   - LCD SDA to Arduino Analog Pin A4
+   - LCD SCL to Arduino Analog Pin A5
+
+4. Connect the GSM module to the Arduino Uno:
+   - GSM VCC to Arduino 5V
+   - GSM GND to Arduino GND
+   - GSM TX to Arduino RX (D0)
+   - GSM RX to Arduino TX (D1)
+
